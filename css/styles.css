@@ -296,7 +296,7 @@ img {
   /* Visual */
   background-color: var(--color-navy-blue);
   background-image: linear-gradient(var(--hero-overlay), var(--hero-overlay)),
-    url('/images/hero/hero-background.jpg');
+    url('../images/hero/hero-background.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -307,7 +307,7 @@ img {
   (min-resolution: 2dppx) {
   .hero {
     background-image: linear-gradient(var(--hero-overlay), var(--hero-overlay)),
-      url('/images/hero/hero-background@2x.jpg');
+      url('../images/hero/hero-background@2x.jpg');
   }
 }
 
