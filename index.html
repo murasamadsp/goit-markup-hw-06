@@ -48,6 +48,7 @@
             type="button"
             aria-label="Open mobile menu"
             aria-expanded="false"
+            aria-controls="mobile-menu"
           >
             <svg
               class="mobile-menu-icon"
@@ -98,7 +99,27 @@
       <!-- Hero -->
       <section class="section hero">
         <div class="container">
-          <h1 class="hero-title">Effective Solutions for Your Business</h1>
+          <h1 class="hero-title">
+            <span class="hero-title-text visually-hidden"
+              >Effective Solutions for Your Business</span
+            >
+            <span
+              class="hero-title-layout hero-title-layout--desktop"
+              aria-hidden="true"
+            >
+              <span class="hero-title-segment">Effective Solutions</span>
+              <span class="hero-title-segment">for Your Business</span>
+            </span>
+            <span
+              class="hero-title-layout hero-title-layout--mobile"
+              aria-hidden="true"
+            >
+              <span class="hero-title-segment">Effective</span>
+              <span class="hero-title-segment">Solutions</span>
+              <span class="hero-title-segment">for Your</span>
+              <span class="hero-title-segment">Business</span>
+            </span>
+          </h1>
           <button
             class="hero-button button-primary"
             type="button"
@@ -836,10 +857,12 @@
 
     <!-- Mobile menu -->
     <div
+      id="mobile-menu"
       class="mobile-menu js-menu-container"
       role="dialog"
       aria-modal="true"
       aria-label="Mobile menu"
+      aria-hidden="true"
     >
       <div class="container">
         <button
@@ -858,7 +881,9 @@
         </button>
         <ul class="mobile-menu-nav" role="list" aria-label="Mobile navigation">
           <li class="mobile-menu-item">
-            <a class="mobile-menu-link mobile-menu-link--current" href="#"
+            <a
+              class="mobile-menu-link mobile-menu-link--current"
+              href="./index.html"
               >Studio</a
             >
           </li>
