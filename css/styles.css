@@ -1755,6 +1755,7 @@ footer .container {
     align-items: flex-start;
     gap: 72px 24px;
     text-align: left;
+    padding: 0 108px;
   }
 
   .footer-info-wrapper {
