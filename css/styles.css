@@ -607,6 +607,11 @@ img {
 }
 
 .portfolio-item {
+  /* Box model */
+  flex: 0 0 calc((100% - 48px) / 3);
+  max-width: 360px;
+  width: 100%;
+
   /* Misc */
   transition: box-shadow var(--transition-base);
 }
@@ -1718,6 +1723,7 @@ footer .container {
   .portfolio-item {
     flex: 0 0 calc((100% - 24px) / 2);
     max-width: calc((100% - 24px) / 2);
+    width: 100%;
   }
 
   /* --- Footer --- */
@@ -1888,7 +1894,8 @@ footer .container {
   }
 
   .portfolio-item {
-    width: 100%;
+    width: 288px;
+    max-width: 288px;
   }
 
   /* --- Footer --- */
