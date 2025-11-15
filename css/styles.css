@@ -177,7 +177,7 @@ img {
 
 .nav-logo-accent {
   /* Typography */
-  color: var(--color-navy-blue);
+  color: var(--color-iris);
 }
 
 .nav-list {
@@ -541,8 +541,8 @@ img {
 
 .team-social-icon {
   /* Box model */
-  width: 16px;
-  height: 16px;
+  width: 24px;
+  height: 24px;
 
   /* Visual */
   fill: var(--color-cloud);
@@ -1591,7 +1591,7 @@ footer .container {
 /* #region Media Queries */
 
 /* ========== Desktop: 1158px and up ========== */
-/* 
+/*
   Desktop styles are defined in the main sections above without media queries.
   They serve as the base styles (desktop-first approach).
   Look for styles in:
